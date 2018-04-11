@@ -1,6 +1,6 @@
 # Super Tiny Node App
 
-![Build Status](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiZk5MUXR6aGxiOHBMZXdqYzRxcGdOdkQvYkVFYVhWMFRHeGtpTmFjVitkNFNKemlLRWVzVUtOSExlVkZodVBSVUZlQWlVL3RDSEFJVXhxT2YzRzRlQStvPSIsIml2UGFyYW1ldGVyU3BlYyI6IjgwVlNmY1hHcDlqUjRBL0YiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
+![Build Status](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiQVh5T2xGYkJqVm9SODdLbURZTURrU1BDMXJMQ2x2b1BwbzdFRzRINC9GcHh4MzlhOU5HdTdPd2U2VFl5ZmwwemZBa0Vick5XNDR6YmVPRkhja2F3WnpjPSIsIml2UGFyYW1ldGVyU3BlYyI6InJ5MHBCQzBqR0F0MFdyY3giLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
 
 ## Stick it in CodeCommit
 
@@ -36,7 +36,7 @@ You should then see:
 Now you can configure your origin and push
 
 ```
-git remote add origin ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/dw-dddsm
+git remote add codecommit ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/dw-dddsm
 ```
 
 ## Build it on push
@@ -46,6 +46,4 @@ On build we want to
 * `npm install`
 * `npm test`
 
-Manually create a build project in CodeBuild
-
-It's all in docker
+Manually create a build project in CodeBuild lets point it to github so we can have webhooks.
