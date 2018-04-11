@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing Dependencies...
+      - cd app && npm install
+  pre_build:
+    commands:
+      - echo Running Tests...
+      - cd app && npm test
+artifacts:
+  files:
+    - app/*
+  discard-paths: no
