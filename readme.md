@@ -36,3 +36,14 @@ Now you can configure your origin and push
 ```
 git remote add origin ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/dw-dddsm
 ```
+
+## Build it on push
+
+On build we want to
+
+* `npm install`
+* `npm test`
+
+Manually create a build project in CodeBuild
+
+It's all in docker
