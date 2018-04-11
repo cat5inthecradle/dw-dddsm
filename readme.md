@@ -1,5 +1,7 @@
 # Super Tiny Node App
 
+![Build Status](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiZk5MUXR6aGxiOHBMZXdqYzRxcGdOdkQvYkVFYVhWMFRHeGtpTmFjVitkNFNKemlLRWVzVUtOSExlVkZodVBSVUZlQWlVL3RDSEFJVXhxT2YzRzRlQStvPSIsIml2UGFyYW1ldGVyU3BlYyI6IjgwVlNmY1hHcDlqUjRBL0YiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
+
 ## Stick it in CodeCommit
 
 ```bash
