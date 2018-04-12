@@ -4,9 +4,12 @@ phases:
   install:
     commands:
       - echo Installing Dependencies...
+      - cd app
+      - npm install
   pre_build:
     commands:
       - echo Running Tests...
+      - npm test
 artifacts:
   files:
     - app/*
